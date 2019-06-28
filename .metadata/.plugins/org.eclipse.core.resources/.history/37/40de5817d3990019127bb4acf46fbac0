@@ -1,0 +1,28 @@
+package com.br.projeto.pizzaria.services;
+
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.stereotype.Service;
+
+import com.br.projeto.pizzaria.models.PizzariaModel;
+
+@Service
+public class PizzariaService {
+	
+	Map<Integer, PizzariaModel> listaPizzas = new HashMap<Integer, PizzariaModel>() {
+		{
+			put(1, new PizzariaModel("Calabresa", "Lisa", "Recheada", 20.00));
+			put(2, new PizzariaModel("Atum", "Crocante", "Seca", 17.99));
+		}
+	};
+	
+	public Collection<PizzariaModel> MostrarPizzas() {
+		return this.listaPizzas.values();
+	}
+	public void salvarPizzas(PizzariaModel pizzariaModel) {
+		listaPizzas.put(listaPizzas.size()+1, pizzariaModel);
+	}
+}
+	

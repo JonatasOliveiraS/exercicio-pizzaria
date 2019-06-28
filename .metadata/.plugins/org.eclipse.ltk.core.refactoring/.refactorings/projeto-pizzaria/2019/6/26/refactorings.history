@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.br.projeto.pizzaria.controllers.pizzariaController&apos; to &apos;PizzariaController&apos;&#x0A;- Original project: &apos;projeto-pizzaria&apos;&#x0A;- Original element: &apos;com.br.projeto.pizzaria.controllers.pizzariaController&apos;&#x0A;- Renamed element: &apos;com.br.projeto.pizzaria.controllers.PizzariaController&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;pizzariaController&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java&lt;com.br.projeto.pizzaria.controllers{pizzariaController.java[pizzariaController" matchStrategy="1" name="PizzariaController" qualified="false" references="true" similarDeclarations="false" stamp="1561742179862" textual="false" version="1.0"/>
+</session>
